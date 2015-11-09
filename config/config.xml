@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Info...
+ Document   :    config.xml
+ Created on :    12 november 2011, 16:00
+ Author     :    Peter Hendriks
+ Description:    Trying to automate web searches without having to visit all
+ sites personally saving you the BS and yet enabling being
+ up to date or even the first one to respond to news or online offers..
+ -->
+<root>
+    <!--General Configuration...-->
+    <config>
+        <!--Wether the tool has to stop or run... -->
+        <running>true</running>
+        <!--Scanning interval, in seconds(300s=5min)-->
+        <interval>900</interval>
+    </config>
+    <job>
+        <name>Furore Nieuws</name>
+        <url>http://www.furore.com/nieuws/</url>
+        <element>a</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>MindPower</name>
+        <url>http://www.mindpower.nl</url>
+        <element>a</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Dutch Hospital Data: News</name>
+        <url>http://www.dutchhospitaldata.nl/</url>
+        <element>span</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Dutch Hospital Data: Nieuws over de Diagnosethesaurus</name>
+        <url>http://www.dutchhospitaldata.nl/LBZ/Thesaurus.php</url>
+        <element>em</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>InfoEPD.nl</name>
+        <url>http://www.infoepd.nl/</url>
+        <element>a</element>
+        <attribute>href</attribute>
+        <query>EPD</query>
+    </job>
+    <job>
+        <name>Belonen Naar Prestaties: Over DBC en DOT</name>
+        <url>http://www.belonennaarprestaties.nl/Nieuws/Berichten</url>
+        <element>strong</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>NRC_Nieuws over landelijk EPD</name>
+        <url>http://www.nrc.nl/</url>
+        <element>a</element>
+        <attribute> </attribute>
+        <query>EPD</query>
+    </job>
+    <job>
+        <name>Aexist Nieuws</name>
+        <url>http://www.aexist.nl/nieuws.html</url>
+        <element>h2</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Zichtbare Zorg</name>
+        <url>http://www.zichtbarezorg.nl/</url>
+        <element>div</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Nictiz_Nieuws</name>
+        <url>http://www.nictiz.nl/page/Home</url>
+        <element>img</element>
+        <attribute>alt</attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Ministerie Volksgezondheid: Prestaties Belonen</name>
+        <url>http://www.rijksoverheid.nl/onderwerpen/prestaties-belonen-in-ziekenhuizen/nieuws</url>
+        <element>a</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Ministerie Volksgezondheid: EPD</name>
+        <url>http://www.rijksoverheid.nl/onderwerpen/elektronisch-patientendossier</url>
+        <element>a</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Parelsnoer Project: Nieuws</name>
+        <url>http://www.parelsnoer.org/index.php/page/Nieuws</url>
+        <element>strong</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>NZA Nieuws</name>
+        <url>http://www.nza.nl/</url>
+        <element>a</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Nederlandse Vereniging voor Zorgadministratie en Informatie: Nieuwsitems</name>
+        <url>http://www.nvma.nl/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=1&amp;Itemid=3</url>
+        <element>a</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>RVZ Publicaties</name>
+        <url>http://www.rvz.net/publicaties</url>
+        <element>a</element>
+        <attribute>href</attribute>
+        <query>publicaties/bekijk/</query>
+    </job>
+    <job>
+        <name>ParaNice Nieuws</name>
+        <url>http://www.paranice.nl/news.asp?pageid=884</url>
+        <element>p</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Vimeo videos Gaetano</name>
+        <url>http://vimeo.com/user8878054</url>
+        <element>img</element>
+        <attribute>alt</attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>FysioCZ Nieuws</name>
+        <url>http://www.fysiocz.nl/web/Default.aspx?Page=nieuws</url>
+        <element>b</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Primefaces BLOG</name>
+        <url>http://blog.primefaces.org/</url>
+        <element>p</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Netbeans: new version</name>
+        <url>http://netbeans.org/</url>
+        <element>h1</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Orbeon: news</name>
+        <url>http://blog.orbeon.com/</url>
+        <element>span</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>ExistDB: News</name>
+        <url>http://atomic.exist-db.org/blogs/eXist/</url>
+        <element>h2</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>LIACS NIEUWS</name>
+        <url>http://www.liacs.nl/</url>
+        <element>h3</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Medisch Contact over EPD</name>
+        <url>http://medischcontact.artsennet.nl/home.htm</url>
+        <element>a</element>
+        <attribute>href</attribute>
+        <query>EPD</query>
+    </job>
+    <job>
+        <name>Eureka Magazine</name>
+        <url>http://www.physics.leidenuniv.nl/eureka/archief/archief.html</url>
+        <element>img</element>
+        <attribute>alt</attribute>
+        <query> </query>
+    </job>
+    <job>
+        <name>Software Improvement Group publicaties</name>
+        <url>http://www.sig.eu/nl/Nieuws_en_Publicaties/Publicaties</url>
+        <element>a</element>
+        <attribute> </attribute>
+        <query> </query>
+    </job>
+</root>
